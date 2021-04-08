@@ -10,6 +10,9 @@ module.exports = {
         sourceType: 'module'
     },
     rules: {
-        'no-unused-vars': ['warn']
+        'no-unused-vars': ['warn'],
+        'no-plusplus': ['off'],
+        'no-new-func': ['off'],
+        'no-eval': 'off'
     }
 };
